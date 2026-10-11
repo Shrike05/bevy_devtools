@@ -4,8 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-bevy = "0.19.1"
-bevy_ratatui = "0.12.0"
+bevy = "0.20.0"
+bevy_ratatui = { git = "https://github.com/ratatui/bevy_ratatui.git" }
 clap = {version = "4.6.0", features = ["derive"]}
 crossterm = "0.29.0"
 log = "0.4.29"
